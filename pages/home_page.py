@@ -134,17 +134,13 @@ st.markdown("---")
 # Call to action
 st.markdown("## 🎯 Ready to Get Started?")
 
-cta_col1, cta_col2, cta_col3 = st.columns([1, 2, 1])
+st.markdown("""
+<div style='text-align: center; padding: 20px;'>
+    <h3>Begin Your Financial Journey Today!</h3>
+    <p>Use the navigation menu on the left to explore all features.</p>
+</div>
+""", unsafe_allow_html=True)
 
-with cta_col2:
-    st.markdown("""
-    <div style='text-align: center; padding: 20px; background-color: #f0f2f6; border-radius: 10px;'>
-        <h3>Begin Your Financial Journey Today!</h3>
-        <p>Use the navigation menu on the left to explore all features.</p>
-    </div>
-    """, unsafe_allow_html=True)
-    
-st.markdown("")
 st.info("💡 **Pro Tip:** Start with the Knowledge Quiz to get personalized recommendations for your learning path!")
 
 # Footer
