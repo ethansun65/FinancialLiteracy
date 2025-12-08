@@ -102,4 +102,4 @@ if st.button("✨ Get My AI-Generated Financial Personality"):
         )
 
     st.subheader("🎉 Your Financial Personality")
-    st.write(completion.choices[0].message["content"])
+    st.write(completion.choices[0].message.content)
